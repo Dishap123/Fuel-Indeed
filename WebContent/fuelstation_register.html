@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account in Apna Bank!! </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 550px;
+            margin: auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type=text], input[type=number] {
+            width: calc(85% - 12px);
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type=submit] {
+            background-color: #001f3f; 
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type=submit]:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>New Fuel Station Registration Here!!</h2>
+        <form action="FuelStationRegister" method="POST"> <!-- Replace 'submit_form.php' with your form handling script -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact_number">Contact Number:</label>
+                <input type="text" id="fcontact" name="fcontact" required>
+            </div>
+            <div class="form-group">
+                <label for="Email">E-mail:</label>
+                <input type="text" id="femail" name="femail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input type="text" id="fpassword" name="fpassword" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="fcity" name="fcity" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="faddress" name="faddress" required>
+            </div>
+            <div class="form-group">
+                <label for="area">Area:</label>
+                <input type="text" id="farea" name="farea" required>
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="fpincode" name="fpincode" required>
+            </div>
+            <div class="form-group">
+                <label for="petro Quantity">Petrol Quantity:</label>
+                <input type="text" id="fpetrolqty" name="fpetrolqty" required>
+            </div>
+            <div class="form-group">
+                <label for="petrol rate">Petrol Rate:</label>
+                <input type="text" id="fpetrolrate" name="fpetrolrate" required>
+            </div>
+            <div class="form-group">
+                <label for="Disel Quantity">Diesel  Quantity:</label>
+                <input type="text" id="fdieselqty" name="fdieselqty" required>
+            </div>
+             <div class="form-group">
+                <label for="petrol rate">Petrol Rate:</label>
+                <input type="text" id="fdieselrate" name="fdieselrate" required>
+            </div>
+             <div class="form-group">
+                <label for="open time">Opening Time:</label>
+                <input type="text" id="fopentime" name="fopentime" required>
+            </div>
+             <div class="form-group">
+                <label for="close time">Close Time:</label>
+                <input type="text" id="fclosetime" name="fclosetime" required>
+            </div> 
+           
+           
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>

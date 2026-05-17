@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account in Apna Bank!! </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 550px;
+            margin: auto;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type=text], input[type=number] {
+            width: calc(85% - 12px);
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>New User Registration Here!!</h2>
+        <form action="UserRegister" method="POST"> <!-- Replace 'submit_form.php' with your form handling script -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="uname" name="uname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact_number">Contact Number:</label>
+                <input type="text" id="ucontact" name="ucontact" required>
+            </div>
+            <div class="form-group">
+                <label for="Email">E-mail:</label>
+                <input type="text" id="uemail" name="uemail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input type="text" id="upassword" name="upassword" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="ucity" name="ucity" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="uaddress" name="uaddress" required>
+            </div>
+           
+            <div class="form-group">
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="upincode" name="upincode" required>
+            </div>
+           
+           
+           
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
